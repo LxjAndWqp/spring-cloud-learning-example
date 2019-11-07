@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring-cloud-lidong-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot-grpc" vcs="Git" />
   </component>
 </project>

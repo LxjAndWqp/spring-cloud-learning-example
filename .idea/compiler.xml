@@ -10,11 +10,6 @@
         <module name="config-client" />
         <module name="config-server" />
         <module name="eureka-server" />
-        <module name="samples-account" />
-        <module name="samples-business" />
-        <module name="samples-common" />
-        <module name="samples-order" />
-        <module name="samples-storage" />
         <module name="spring-cloud-alibaba-dubbo-api" />
         <module name="spring-cloud-alibaba-dubbo-consumer" />
         <module name="spring-cloud-alibaba-dubbo-consumer-sentinel" />
@@ -43,6 +38,10 @@
         <module name="springboot-econtract" />
         <module name="springboot-es" />
         <module name="springboot-flink-rabbitmq" />
+        <module name="springboot-grpc-api" />
+        <module name="springboot-grpc-consumer" />
+        <module name="springboot-grpc-provider" />
+        <module name="springboot-iot" />
         <module name="springboot-iot-mqtt" />
         <module name="springboot-kafka" />
         <module name="springboot-mail" />
@@ -53,13 +52,15 @@
         <module name="springboot02" />
         <module name="springboot03" />
       </profile>
-      <profile name="Annotation profile for spring-cloud-learning-example" enabled="true">
-        <sourceOutputDir name="../springboot-econtract/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../springboot-econtract/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="springboot-iot" />
-      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="samples-account" target="1.8" />
+      <module name="samples-business" target="1.8" />
+      <module name="samples-common" target="1.8" />
+      <module name="samples-order" target="1.8" />
+      <module name="samples-storage" target="1.8" />
+      <module name="springboot-grpc-api (1)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -95,6 +96,11 @@
       <module name="springboot-econtract" options="-parameters" />
       <module name="springboot-es" options="-parameters" />
       <module name="springboot-flink-rabbitmq" options="-parameters" />
+      <module name="springboot-grpc" options="-parameters" />
+      <module name="springboot-grpc-api" options="-parameters" />
+      <module name="springboot-grpc-api (1)" options="-parameters" />
+      <module name="springboot-grpc-consumer" options="-parameters" />
+      <module name="springboot-grpc-provider" options="-parameters" />
       <module name="springboot-iot" options="-parameters" />
       <module name="springboot-iot-mqtt" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />

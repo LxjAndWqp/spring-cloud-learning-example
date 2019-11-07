@@ -25,15 +25,20 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-producer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-account" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-business" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-order" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-storage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-storage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-econtract" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-flink-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-iot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-iot-mqtt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-kafka" charset="UTF-8" />
