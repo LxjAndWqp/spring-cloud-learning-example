@@ -69,8 +69,7 @@ public class StandardRestService implements RestService {
 	@Path("request/body/map")
 	@POST
 	@Produces(APPLICATION_JSON_VALUE)
-	public User requestBodyMap(Map<String, Object> data,
-							   @QueryParam("param") String param) {
+	public User requestBodyMap(Map<String, Object> data, @QueryParam("param") String param) {
 		User user = new User();
 		user.setId(((Integer) data.get("id")).longValue());
 		user.setName((String) data.get("name"));

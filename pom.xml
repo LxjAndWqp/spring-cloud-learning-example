@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lidong.cloud</groupId>
-    <artifactId>spring-cloud-lidong-example</artifactId>
+    <artifactId>spring-cloud-learning-example</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
@@ -38,13 +38,15 @@
         <module>springboot-iot-mqtt</module>
         <module>spring-cloud-alibaba-dubbo-examples</module>
         <module>spring-cloud-gateway-service-sentinel</module>
-        <module>spring-cloud-gateway-service-sentinel-register</module>
+        <module>spring-cloud-gateway-service-sentinel-nacos</module>
         <module>spring-cloud-gateway-service-dynamic-redis</module>
         <module>spring-cloud-gateway-service-dynamic-mysql</module>
         <module>springboot-dubbo-seata</module>
         <module>springboot-kafka</module>
         <module>spring-cloud-nacos-auth-service</module>
         <module>spring-cloud-gateway-service-dynamic-nacos</module>
+        <module>springboot-rxjava</module>
+        <module>springboot-econtract</module>
     </modules>
 
 

@@ -25,32 +25,35 @@ public class TestKafkaProducerController {
     @RequestMapping("send")
     public String send(String msg){
 
+        for (int i = 0; i < 1000 ; i++) {
+            /**
+             * ProducerRecord  发送给kafka broker 的是一个的key/value 值对
+             *
+             *内部数据结构：
+             *-- Topic -- PartitionID -- Key -- Value
+             *
+             * ProducerRecord 的发送逻辑:
+             * <1> 若指定Partition ID,则PR被发送至指定Partition
+             * <2> 若未指定Partition ID,但指定了Key, PR会按照hasy(key)发送至对应Partition
+             * <3> 若既未指定Partition ID也没指定Key，PR会按照round-robin模式发送到每个Partition
+             * <4> 若同时指定了Partition ID和Key, PR只会发送到指定的Partition (Key不起作用，代码逻辑决定)
+             *
+             */
+            ListenableFuture<SendResult<String, String>> test_topic = kafkaTemplate.send("test_topic", msg+i+"i");
+            test_topic.addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
+                @Override
+                public void onFailure(Throwable ex) {
+                    log.error("发送成功",ex);
+                }
 
-        /**
-         * ProducerRecord  发送给kafka broker 的是一个的key/value 值对
-         *
-         *内部数据结构：
-         *-- Topic -- PartitionID -- Key -- Value
-         *
-         * ProducerRecord 的发送逻辑:
-         * <1> 若指定Partition ID,则PR被发送至指定Partition
-         * <2> 若未指定Partition ID,但指定了Key, PR会按照hasy(key)发送至对应Partition
-         * <3> 若既未指定Partition ID也没指定Key，PR会按照round-robin模式发送到每个Partition
-         * <4> 若同时指定了Partition ID和Key, PR只会发送到指定的Partition (Key不起作用，代码逻辑决定)
-         *
-         */
-        ListenableFuture<SendResult<String, String>> test_topic = kafkaTemplate.send("test_topic", msg);
-        test_topic.addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
-            @Override
-            public void onFailure(Throwable ex) {
-                log.error("发送成功",ex);
-            }
+                @Override
+                public void onSuccess(SendResult<String, String> result) {
+                    log.info("发送成功",JSON.toJSON(result));
+                }
+            });
+        }
 
-            @Override
-            public void onSuccess(SendResult<String, String> result) {
-                   log.info("发送成功",JSON.toJSON(result));
-            }
-        });
+
         return "success";
     }
 

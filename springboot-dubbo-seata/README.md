@@ -53,7 +53,7 @@ registry {
   type = "nacos"
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1:8848"
     namespace = "public"
     cluster = "default"
   }
@@ -67,7 +67,7 @@ config {
   type = "nacos"
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1:8848"
     namespace = "public"
     cluster = "default"
   }
@@ -78,7 +78,7 @@ config {
 }
 
 ```
-- serverAddr = "192.168.10.200"   ：nacos 的地址
+- serverAddr = "127.0.0.1:8848"   ：nacos 的地址
 - namespace = "public" ：nacos的命名空间默认为`public`
 - cluster = "default"  ：集群设置未默认 `default`
 
@@ -120,7 +120,7 @@ store.file.session.reload.read_size=100
 store.db.driver-class-name=com.mysql.jdbc.Driver
 store.db.datasource=dbcp
 store.db.db-type=mysql
-store.db.url=jdbc:mysql://192.168.10.200:3306/seata?useUnicode=true
+store.db.url=jdbc:mysql://127.0.0.1:3306/seata?useUnicode=true
 store.db.user=lidong
 store.db.password=cwj887766@@
 store.db.min-conn=1
@@ -150,7 +150,7 @@ metrics.exporter-prometheus-port=9898
 - store.db.driver-class-name： 默认没有，会报错。添加了 `com.mysql.jdbc.Driver`
 - store.db.datasource=dbcp ：数据源 dbcp
 - store.db.db-type=mysql : 存储数据库的类型为`mysql`
-- store.db.url=jdbc:mysql://192.168.10.200:3306/seata?useUnicode=true : 修改为自己的数据库`url`、`port`、`数据库名称`
+- store.db.url=jdbc:mysql://127.0.0.1:3306/seata?useUnicode=true : 修改为自己的数据库`url`、`port`、`数据库名称`
 - store.db.user=lidong :数据库的账号
 - store.db.password=cwj887766@@ :数据库的密码
 - service.vgroup_mapping.order-service-seata-service-group=default
@@ -755,17 +755,17 @@ dubbo.application.name= dubbo-account-example
 dubbo.protocol.id=dubbo
 dubbo.protocol.name=dubbo
 dubbo.registry.id=dubbo-account-example-registry
-dubbo.registry.address=nacos://192.168.10.200:8848
+dubbo.registry.address=nacos://127.0.0.1:8848
 dubbo.protocol.port=20880
 dubbo.application.qosEnable=false
-dubbo.config-center.address=nacos://192.168.10.200:8848
-dubbo.metadata-report.address=nacos://192.168.10.200:8848
+dubbo.config-center.address=nacos://127.0.0.1:8848
+dubbo.metadata-report.address=nacos://127.0.0.1:8848
 
 #====================================mysql 配置============================================
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
-spring.datasource.url=jdbc:mysql://192.168.10.200:3306/seata?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-spring.datasource.username=lidong
-spring.datasource.password=cwj887766@@
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/seata?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+spring.datasource.username=root
+spring.datasource.password=123456
 
 
 #=====================================mybatis 配置======================================
@@ -780,7 +780,7 @@ registry {
   type = "nacos"
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1:8848"
     namespace = "public"
     cluster = "default"
   }
@@ -798,7 +798,7 @@ config {
   }
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1:8848"
     namespace = "public"
     cluster = "default"
   }

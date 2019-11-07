@@ -20,7 +20,7 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-service-sentinel" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud-gateway-service-sentinel-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-gateway-service-sentinel-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-auth-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-nacos-consumer" charset="UTF-8" />
@@ -31,6 +31,7 @@
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata/samples-storage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-econtract" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-flink-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-iot" charset="UTF-8" />
@@ -40,6 +41,8 @@
     <file url="file://$PROJECT_DIR$/springboot-mail" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mail/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-rxjava" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-rxjava/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springboot-sharding-sphere" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot02" charset="UTF-8" />

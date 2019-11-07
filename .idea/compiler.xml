@@ -35,22 +35,29 @@
         <module name="spring-cloud-gateway-service-dynamic-nacos" />
         <module name="spring-cloud-gateway-service-dynamic-redis" />
         <module name="spring-cloud-gateway-service-sentinel" />
-        <module name="spring-cloud-gateway-service-sentinel-register" />
+        <module name="spring-cloud-gateway-service-sentinel-nacos" />
         <module name="spring-cloud-nacos-auth-service" />
         <module name="spring-cloud-nacos-config" />
         <module name="spring-cloud-nacos-consumer" />
         <module name="spring-cloud-nacos-producer" />
+        <module name="springboot-econtract" />
         <module name="springboot-es" />
         <module name="springboot-flink-rabbitmq" />
-        <module name="springboot-iot" />
         <module name="springboot-iot-mqtt" />
         <module name="springboot-kafka" />
         <module name="springboot-mail" />
         <module name="springboot-rabbitmq" />
+        <module name="springboot-rxjava" />
         <module name="springboot-sharding-sphere" />
         <module name="springboot01" />
         <module name="springboot02" />
         <module name="springboot03" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-learning-example" enabled="true">
+        <sourceOutputDir name="../springboot-econtract/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../springboot-econtract/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-iot" />
       </profile>
     </annotationProcessing>
   </component>
@@ -80,11 +87,12 @@
       <module name="spring-cloud-gateway-service-dynamic-nacos" options="-parameters" />
       <module name="spring-cloud-gateway-service-dynamic-redis" options="-parameters" />
       <module name="spring-cloud-gateway-service-sentinel" options="-parameters" />
-      <module name="spring-cloud-gateway-service-sentinel-register" options="-parameters" />
+      <module name="spring-cloud-gateway-service-sentinel-nacos" options="-parameters" />
       <module name="spring-cloud-nacos-auth-service" options="-parameters" />
       <module name="spring-cloud-nacos-config" options="-parameters" />
       <module name="spring-cloud-nacos-consumer" options="-parameters" />
       <module name="spring-cloud-nacos-producer" options="-parameters" />
+      <module name="springboot-econtract" options="-parameters" />
       <module name="springboot-es" options="-parameters" />
       <module name="springboot-flink-rabbitmq" options="-parameters" />
       <module name="springboot-iot" options="-parameters" />
@@ -92,6 +100,7 @@
       <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-mail" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-rxjava" options="-parameters" />
       <module name="springboot-sharding-sphere" options="-parameters" />
       <module name="springboot01" options="-parameters" />
       <module name="springboot02" options="-parameters" />

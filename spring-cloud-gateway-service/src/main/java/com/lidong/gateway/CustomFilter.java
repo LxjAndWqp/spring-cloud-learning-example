@@ -32,7 +32,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * @Description:
  */
 @Slf4j
-@Configuration
+//@Configuration
 public class CustomFilter implements GlobalFilter, Ordered {
 
     //执行逻辑
@@ -90,7 +90,6 @@ public class CustomFilter implements GlobalFilter, Ordered {
 
     private DataBuffer stringBuffer(String value) {
         byte[] bytes = value.getBytes(StandardCharsets.UTF_8);
-
         NettyDataBufferFactory nettyDataBufferFactory = new NettyDataBufferFactory(ByteBufAllocator.DEFAULT);
         DataBuffer buffer = nettyDataBufferFactory.allocateBuffer(bytes.length);
         buffer.write(bytes);

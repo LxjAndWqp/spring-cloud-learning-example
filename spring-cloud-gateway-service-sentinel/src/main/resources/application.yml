@@ -21,7 +21,7 @@ spring:
     database: 5
     host: 192.168.10.200
     port: 9078
-    password: xxxxxxxxxxx   # 密码（默认为空）
+    password: aihuhui_redis@163com   # 密码（默认为空）
     timeout: 6000ms  # 连接超时时长（毫秒）
     lettuce:
       pool:
