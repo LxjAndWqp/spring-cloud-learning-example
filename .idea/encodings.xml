@@ -35,8 +35,9 @@
     <file url="file://$PROJECT_DIR$/springboot-es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-flink-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-grpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-iot" charset="UTF-8" />

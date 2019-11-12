@@ -26,7 +26,7 @@
 2019-11-07 15:51:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ahh-iot][0;39m | Initializing Spring embedded WebApplicationContext
 2019-11-07 15:51:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1415 ms
 2019-11-07 15:51:17 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-07 15:51:17 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:51:17 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:51:17 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:51:17 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9998"]
 2019-11-07 15:51:17 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 9998 (http) with context path '/ahh-iot'
@@ -45,7 +45,7 @@
 2019-11-07 15:52:26 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1429 ms
 2019-11-07 15:52:26 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:52:26 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:52:26 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:52:26 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -53,7 +53,7 @@
 2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:52:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -70,7 +70,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:53:02 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1171 ms
 2019-11-07 15:53:02 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:53:02 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:53:02 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:53:02 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -78,7 +78,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:53:03 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -95,7 +95,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:53:49 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1546 ms
 2019-11-07 15:53:49 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:53:49 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -103,7 +103,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:53:50 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -120,7 +120,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:54:37 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1320 ms
 2019-11-07 15:54:37 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -128,7 +128,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:54:38 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -145,7 +145,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:55:33 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1433 ms
 2019-11-07 15:55:33 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -153,7 +153,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:55:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -170,7 +170,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:56:06 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1123 ms
 2019-11-07 15:56:06 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:56:06 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:56:06 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:56:06 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -178,7 +178,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:56:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -195,7 +195,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:57:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1114 ms
 2019-11-07 15:57:07 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -203,7 +203,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:57:08 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -220,7 +220,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:57:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1434 ms
 2019-11-07 15:57:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:57:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:57:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:57:27 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -228,7 +228,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:57:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -245,7 +245,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:57:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1389 ms
 2019-11-07 15:57:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -253,7 +253,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:57:41 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -270,7 +270,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:58:11 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1749 ms
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9090
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-9090"]
@@ -278,7 +278,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 15:58:12 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -295,7 +295,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 16:21:15 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1391 ms
 2019-11-07 16:21:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 16:21:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 16:21:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 16:21:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 16:21:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9898
 2019-11-07 16:21:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-8080"]
 2019-11-07 16:21:16 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 8080 (http) with context path ''
@@ -318,7 +318,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 16:21:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 16:21:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 16:21:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 16:21:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 16:21:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 16:21:40 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.
@@ -335,7 +335,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 16:22:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1385 ms
 2019-11-07 16:22:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
 2019-11-07 16:22:28 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer[0;39m | LiveReload server is running on port 35729
-2019-11-07 16:22:29 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: com.lidong.grpc.provider.GreeterService
+2019-11-07 16:22:29 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.AbstractGrpcServerFactory[0;39m | Registered gRPC service: helloworld.Greeter, bean: greeterService, class: GreeterService
 2019-11-07 16:22:29 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC Server started, listening on address: *, port: 9898
 2019-11-07 16:22:29 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-8080"]
 2019-11-07 16:22:29 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 8080 (http) with context path ''
@@ -358,7 +358,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-07 16:23:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 2019-11-07 16:23:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-9090"]
 2019-11-07 16:23:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-9090"]
-2019-11-07 16:23:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+2019-11-07 16:23:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m |
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-11-07 16:23:34 | [34mINFO [0;39m | [1;33mrestartedMain[0;39m | [1;32mnet.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle[0;39m | gRPC server shutdown.

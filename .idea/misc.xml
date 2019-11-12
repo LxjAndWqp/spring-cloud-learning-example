@@ -12,6 +12,11 @@
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-consumer-sentinel/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-provider/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

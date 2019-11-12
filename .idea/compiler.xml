@@ -10,6 +10,11 @@
         <module name="config-client" />
         <module name="config-server" />
         <module name="eureka-server" />
+        <module name="samples-account" />
+        <module name="samples-business" />
+        <module name="samples-common" />
+        <module name="samples-order" />
+        <module name="samples-storage" />
         <module name="spring-cloud-alibaba-dubbo-api" />
         <module name="spring-cloud-alibaba-dubbo-consumer" />
         <module name="spring-cloud-alibaba-dubbo-consumer-sentinel" />
@@ -31,6 +36,8 @@
         <module name="spring-cloud-gateway-service-dynamic-redis" />
         <module name="spring-cloud-gateway-service-sentinel" />
         <module name="spring-cloud-gateway-service-sentinel-nacos" />
+        <module name="spring-cloud-grpc-consumer" />
+        <module name="spring-cloud-grpc-producer" />
         <module name="spring-cloud-nacos-auth-service" />
         <module name="spring-cloud-nacos-config" />
         <module name="spring-cloud-nacos-consumer" />
@@ -41,7 +48,6 @@
         <module name="springboot-grpc-api" />
         <module name="springboot-grpc-consumer" />
         <module name="springboot-grpc-provider" />
-        <module name="springboot-iot" />
         <module name="springboot-iot-mqtt" />
         <module name="springboot-kafka" />
         <module name="springboot-mail" />
@@ -52,13 +58,16 @@
         <module name="springboot02" />
         <module name="springboot03" />
       </profile>
+      <profile name="Annotation profile for spring-cloud-learning-example" enabled="true">
+        <sourceOutputDir name="../springboot-econtract/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../springboot-econtract/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-iot" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="samples-account" target="1.8" />
-      <module name="samples-business" target="1.8" />
-      <module name="samples-common" target="1.8" />
-      <module name="samples-order" target="1.8" />
-      <module name="samples-storage" target="1.8" />
+      <module name="cloud-grpc-providerx" target="1.8" />
+      <module name="spring-cloud-grpc-provider" target="1.8" />
       <module name="springboot-grpc-api (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -89,6 +98,9 @@
       <module name="spring-cloud-gateway-service-dynamic-redis" options="-parameters" />
       <module name="spring-cloud-gateway-service-sentinel" options="-parameters" />
       <module name="spring-cloud-gateway-service-sentinel-nacos" options="-parameters" />
+      <module name="spring-cloud-grpc-consumer" options="-parameters" />
+      <module name="spring-cloud-grpc-producer" options="-parameters" />
+      <module name="spring-cloud-grpc-provider" options="-parameters" />
       <module name="spring-cloud-nacos-auth-service" options="-parameters" />
       <module name="spring-cloud-nacos-config" options="-parameters" />
       <module name="spring-cloud-nacos-consumer" options="-parameters" />

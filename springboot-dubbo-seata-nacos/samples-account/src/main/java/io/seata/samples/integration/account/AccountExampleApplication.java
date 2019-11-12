@@ -11,8 +11,6 @@ import org.springframework.boot.context.config.ConfigFileApplicationListener;
 @EnableDubbo(scanBasePackages = "io.seata.samples.integration.account")
 public class AccountExampleApplication {
 
-
-    ConfigFileApplicationListener v;
     public static void main(String[] args) {
         SpringApplication.run(AccountExampleApplication.class, args);
     }
