@@ -10,7 +10,6 @@ import org.springframework.util.concurrent.ListenableFutureCallback;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
 /**
  * 测试kafka生产者
  */
@@ -39,7 +38,14 @@ public class TestKafkaProducerController {
              * <4> 若同时指定了Partition ID和Key, PR只会发送到指定的Partition (Key不起作用，代码逻辑决定)
              *
              */
-            ListenableFuture<SendResult<String, String>> test_topic = kafkaTemplate.send("test_topic", msg+i+"i");
+//            String data = msg+" 1751 1464116 cart "+System.currentTimeMillis()/1000;
+            /**
+             * "sid": "t_xxsfdsad",
+             * 	"s_value": "85.5",
+             * 	"s_ts": "1515228763"
+             */
+            String data = "t_xxsfdsad 85.5 1515228763";
+            ListenableFuture<SendResult<String, String>> test_topic = kafkaTemplate.send("metric", data);
             test_topic.addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
                 @Override
                 public void onFailure(Throwable ex) {

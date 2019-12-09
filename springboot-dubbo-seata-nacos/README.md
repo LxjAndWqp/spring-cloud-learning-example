@@ -761,7 +761,7 @@ dubbo.application.qosEnable=false
 dubbo.config-center.address=nacos://127.0.0.1:8848
 dubbo.metadata-report.address=nacos://127.0.0.1:8848
 
-#====================================mysql 配置============================================
+stream
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/seata?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
 spring.datasource.username=root

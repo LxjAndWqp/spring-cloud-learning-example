@@ -30,6 +30,7 @@
         <module name="spring-cloud-eureka-producer" />
         <module name="spring-cloud-eureka-producer2" />
         <module name="spring-cloud-eureka-ribbon-consumer" />
+        <module name="spring-cloud-gateway-rsocket-sample" />
         <module name="spring-cloud-gateway-service" />
         <module name="spring-cloud-gateway-service-dynamic-mysql" />
         <module name="spring-cloud-gateway-service-dynamic-nacos" />
@@ -44,7 +45,7 @@
         <module name="spring-cloud-nacos-producer" />
         <module name="springboot-econtract" />
         <module name="springboot-es" />
-        <module name="springboot-flink-rabbitmq" />
+        <module name="springboot-flink" />
         <module name="springboot-grpc-api" />
         <module name="springboot-grpc-consumer" />
         <module name="springboot-grpc-provider" />
@@ -107,7 +108,7 @@
       <module name="spring-cloud-nacos-producer" options="-parameters" />
       <module name="springboot-econtract" options="-parameters" />
       <module name="springboot-es" options="-parameters" />
-      <module name="springboot-flink-rabbitmq" options="-parameters" />
+      <module name="springboot-flink" options="" />
       <module name="springboot-grpc" options="-parameters" />
       <module name="springboot-grpc-api" options="-parameters" />
       <module name="springboot-grpc-api (1)" options="-parameters" />

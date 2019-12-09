@@ -45,9 +45,10 @@
         <module>springboot-rabbitmq</module>
         <module>springboot-iot</module>
         <module>springboot-sharding-sphere</module>
-        <module>springboot-flink-rabbitmq</module>
+        <module>springboot-flink</module>
         <module>springboot-iot-mqtt</module>
         <module>springboot-grpc</module>
+        <module>spring-cloud-gateway-rsocket-sample</module>
     </modules>
 
 

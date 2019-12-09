@@ -33,7 +33,7 @@
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-storage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-econtract" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-es" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-flink-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-flink" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-grpc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-producer" charset="UTF-8" />
