@@ -10,6 +10,8 @@ import org.springframework.util.concurrent.ListenableFutureCallback;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.UUID;
+
 /**
  * 测试kafka生产者
  */
@@ -44,8 +46,19 @@ public class TestKafkaProducerController {
              * 	"s_value": "85.5",
              * 	"s_ts": "1515228763"
              */
-            String data = "t_xxsfdsad 85.5 1515228763";
-            ListenableFuture<SendResult<String, String>> test_topic = kafkaTemplate.send("metric", data);
+           String data = "";
+            if (i%5==0){
+                data = "lidongx";
+            }else if(i%5==1){
+                data = "lidongxx";
+            }else if(i%5==2){
+                data = "wwwwxx lidongxx";
+            }else if(i%5==3){
+                data = "wwww shitou";
+            }else if(i%5==4){
+                data = "shitou huge";
+            }
+            ListenableFuture<SendResult<String, String>> test_topic = kafkaTemplate.send("words", data);
             test_topic.addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
                 @Override
                 public void onFailure(Throwable ex) {

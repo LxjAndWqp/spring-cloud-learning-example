@@ -49,6 +49,7 @@
         <module>springboot-iot-mqtt</module>
         <module>springboot-grpc</module>
         <module>spring-cloud-gateway-rsocket-sample</module>
+        <module>spring-cloud-kafka-streams-example</module>
     </modules>
 
 

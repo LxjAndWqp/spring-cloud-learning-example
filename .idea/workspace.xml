@@ -2,64 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fd5495-1d35-4376-8594-9e6601df0ce1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway-rsocket-sample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/WordCountSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMainSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/SensorDataKafkaDataStreamMainSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/SinkUserPvToMySQL2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/UserPvEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-flink/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/ItextPdfUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/OrderPdfVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/TestForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/testout.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/WordCountProcessorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/WordCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-mysql/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-mysql/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account/src/main/resources/registry.conf" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account/src/main/resources/registry.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-storage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-storage/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/module_springboot-flink-rabbitmq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/module_springboot-flink-rabbitmq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/BaseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/SpringbootShardingsphereApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/TextMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/XMLUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/config/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mysql/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mysql/RabbitMQProducerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mysql/SocketWindowWordCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/resources/db/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/src/main/resources/db/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/resources/db/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/src/main/resources/db/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-flink/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/test/java/com/lidong/springboot01/GreetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/test/java/com/lidong/springboot01/GreetingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-flink-rabbitmq/src/test/java/com/lidong/springboot01/Java8Tester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/KafkaConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestKafkaProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestKafkaProducerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mail/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-sharding-sphere/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sharding-sphere/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-consumer/target/" />
@@ -133,6 +86,7 @@
     <ignored path="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-producer/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-gateway-rsocket-sample/target/" />
     <ignored path="$PROJECT_DIR$/springboot-flink/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-kafka-streams-example/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,19 +96,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/SensorDataKafkaDataStreamMainSQL.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/SpringCloudKafkaStreamsExampleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitmqDataStreamMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="357">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,49 +108,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/WordCountProcessorApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="-54">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/KafkaConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/MessageReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/MessageServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/KafkaConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/QueueConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,10 +141,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMain.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+            <state relative-caret-position="31">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/kafka/KafkaProperties.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="652" column="20" selection-start-line="652" selection-start-column="20" selection-end-line="652" selection-end-column="20" />
+              <folding>
+                <element signature="e#19983#19984#0" expanded="true" />
+                <element signature="e#20041#20042#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestKafkaProducerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,22 +175,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/RabbitMqConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-756">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/SpringbootRabbitmqApplication.java">
+        <entry file="file://$PROJECT_DIR$/springboot-kafka/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="35" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="22" column="66" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -259,9 +216,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>0.2.1.Release</find>
-      <find>spring-cloud-starter-alibaba-nacos-discovery</find>
-      <find>com.alibaba.cloud</find>
       <find>spring-cloud-lidong-example</find>
       <find>sentinel-spring-cloud-gateway-adapter</find>
       <find>Connect MQTT:</find>
@@ -289,6 +243,9 @@
       <find>orderPdfVOList</find>
       <find>flink-sql</find>
       <find>1.9.0</find>
+      <find>nacos.a-hh.cn</find>
+      <find>INPUT_TOPIC</find>
+      <find>OUTPUT_TOPIC</find>
     </findStrings>
     <replaceStrings>
       <replace>key</replace>
@@ -307,9 +264,10 @@
       <replace>serverAddr = &quot;127.0.0.1:8848&quot;</replace>
       <replace>127.0.0.1</replace>
       <replace>@since 2019/11/6</replace>
-      <replace />
       <replace>@author lidong</replace>
       <replace>lidong1665@163.com</replace>
+      <replace>127.0.0.1:8848</replace>
+      <replace />
       <replace>1.9.1</replace>
     </replaceStrings>
     <dirStrings>
@@ -328,18 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-producer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-producer/src/main/resources/META-INF/spring-autoconfigure-metadata.properties" />
-        <option value="$PROJECT_DIR$/springboot-grpc/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-producer/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-producer/src/main/java/com/lidong/grpc/produce/GreeterService.java" />
-        <option value="$PROJECT_DIR$/springboot-grpc/spring-cloud-grpc-consumer/src/main/java/com/lidong/grpc/CloudGrpcServerApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-grpc/springboot-grpc-provider/src/main/java/com/lidong/grpc/provider/LogGrpcInterceptor.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/TestForm.java" />
-        <option value="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/OrderWaybillPO.java" />
-        <option value="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/OrderPdfVO.java" />
         <option value="$PROJECT_DIR$/springboot-mail/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mail/src/main/java/com/example/springbootmail/ItextPdfUtils.java" />
         <option value="$PROJECT_DIR$/springboot-kafka/pom.xml" />
@@ -348,7 +294,6 @@
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mysql/BatchJob.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mysql/SocketWindowWordCountScala.scala" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mysql/SocketTextStreamWordCount.java" />
-        <option value="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/service/UserService.java" />
@@ -363,22 +308,35 @@
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/KafkaDataStreamMain.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mysql/RabbitmqDataStreamMain.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/other/XMLUtil.java" />
-        <option value="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestConsumer.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMain.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/stream/kafka/UserPvEntity.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/stream/kafka/SinkUserPvToMySQL2.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMainSQL.java" />
-        <option value="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestKafkaProducerController.java" />
         <option value="$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/stream/kafka/SensorDataKafkaDataStreamMainSQL.java" />
         <option value="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account/src/main/resources/registry.conf" />
         <option value="$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-flink/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMain.java" />
         <option value="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitmqDataStreamMain.java" />
         <option value="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil.java" />
         <option value="$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/test/java/com/lidongexample/KafkaStreamsWordCountApplicationTests.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/test/java/com/lidongexample/WordCountProcessorApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestConsumer.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestKafkaProducerController.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/WordCount.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/WordCount.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/MsgSink.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/SpringCloudKafkaStreamsExampleApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/WordCountProcessorApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/KafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/KafkaConsumer.java" />
       </list>
     </option>
   </component>
@@ -453,25 +411,92 @@
             <path>
               <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lidongexample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-kafka-streams-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lidongexample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -479,53 +504,19 @@
             <path>
               <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="lidong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-learning-example" type="b2602c69:ProjectViewProjectNode" />
@@ -553,7 +544,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575856829205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575886528320" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/tools/seata-0.9.0" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -563,8 +554,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lidong.bootstrap" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springcloud\spring-cloud-learning-example" />
+      <recent name="D:\springcloud\spring-cloud-learning-example\spring-cloud-gateway-service-sentinel\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lidong.gateway" />
@@ -577,15 +569,14 @@
       <recent name="D:\springcloud\spring-cloud-learning-example\springboot-grpc\spring-cloud-grpc-consumer\src\main\java\com\lidong\grpc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lidongexample" />
       <recent name="com.lidong.flink.stream.kafka" />
       <recent name="com.lidong.flink.mysql" />
       <recent name="com.lidong.flink" />
       <recent name="com.lidong.auth.comm" />
-      <recent name="com.lidong.gateway" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\springcloud\spring-cloud-learning-example" />
-      <recent name="D:\springcloud\spring-cloud-learning-example\spring-cloud-gateway-service-sentinel\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lidong.bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -600,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountExampleApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCloudKafkaStreamsExampleApplication">
     <configuration name="KafkaDataStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lidong.flink.stream.kafka.KafkaDataStreamMain" />
       <module name="springboot-flink" />
@@ -975,6 +966,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCloudKafkaStreamsExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-kafka-streams-example" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidongexample.SpringCloudKafkaStreamsExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCloudLidongProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-eureka-producer2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.produce2.SpringCloudLidongProviderApplication" />
@@ -1197,6 +1195,7 @@
       <item itemvalue="Spring Boot.LocalGrpcServerApplication (2)" />
       <item itemvalue="Spring Boot.CloudGrpcServerApplication (1)" />
       <item itemvalue="Spring Boot.CloudGrpcServerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudKafkaStreamsExampleApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -1268,12 +1267,12 @@
       <workItem from="1573201396338" duration="7916000" />
       <workItem from="1573522355310" duration="48135000" />
       <workItem from="1574042160189" duration="12649000" />
-      <workItem from="1575855492837" duration="1198000" />
+      <workItem from="1575855492837" duration="15457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301614000" />
+    <option name="totallyTimeSpent" value="315873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1288,7 +1287,7 @@
     <frame x="1921" y="0" width="1901" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7972973" visible="true" weight="0.27078775" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7972973" visible="true" weight="0.22647703" />
       <window_info id="Structure" order="1" sideWeight="0.2027027" side_tool="true" weight="0.32847533" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1299,7 +1298,7 @@
       <window_info id="Alibaba Cloud Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49624464" weight="0.43295455" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.904148" visible="true" weight="0.3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.904148" visible="true" weight="0.7125" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.85622317" weight="0.38522726" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1317,7 +1316,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.22592998" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.09792122" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Remote Host" order="5" weight="0.3299356" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -1327,7 +1326,7 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" weight="0.33154505" />
       <window_info anchor="right" id="Alibaba Log Console" order="12" />
-      <window_info anchor="right" id="CDI" order="13" weight="0.18937768" />
+      <window_info anchor="right" id="CDI" order="13" visible="true" weight="0.065645516" />
       <window_info anchor="right" id="Alibaba Function Compute" order="14" />
     </layout>
   </component>
@@ -1704,149 +1703,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/SpringbootShardingsphereApplication.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/target/classes/reference.properties" />
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/resources/reference.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="38" selection-start-line="38" selection-start-column="2" selection-end-line="44" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-provider/src/main/java/com/lidong/grpc/provider/GreeterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/stream/BatchJob.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/other/XMLUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/other/TextMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java-bridge_2.11/1.9.0/flink-table-api-java-bridge_2.11-1.9.0.jar!/org/apache/flink/table/api/java/StreamTableEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-api-java-bridge_2.11/1.9.0/flink-table-api-java-bridge_2.11-1.9.0.jar!/org/apache/flink/table/api/java/internal/StreamTableEnvironmentImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/SpringbootKafkaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/WordCountSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/java/src.zip!/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="264" column="9" selection-start-line="264" selection-start-column="9" selection-end-line="264" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/UserPvEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/SinkUserPvToMySQL2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMainSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-business/src/main/resources/registry.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1879,16 +1735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestKafkaProducerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
@@ -1901,20 +1747,6 @@
         <state relative-caret-position="135">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-nacos-config/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-api/src/main/proto/hello.proto">
@@ -2022,7 +1854,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/kafka/KafkaDataStreamMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
-          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2046,20 +1878,250 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil.java">
+    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="-819">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil2.java">
+    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/stream/rabbitmq/RabbitMQProducerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="-441">
+          <caret line="18" column="38" selection-start-line="16" selection-start-column="7" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-flink/src/main/java/com/lidong/flink/WordCountSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-nacos-config/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-grpc/springboot-grpc-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2931" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-grpc/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="86" column="21" selection-start-line="69" selection-start-column="11" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/test/java/com/lidongexample/WordCountProcessorApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="107" column="24" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="107" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/test/java/com/lidongexample/KafkaStreamsWordCountApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/util/DatePatternToRegexUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.3.1/kafka-streams-2.3.1.jar!/org/apache/kafka/streams/kstream/KStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-kafka-streams/3.0.0.RELEASE/spring-cloud-stream-binder-kafka-streams-3.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/kafka/streams/properties/KafkaStreamsBinderConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+          <folding>
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-kafka-core/3.0.0.RELEASE/spring-cloud-stream-binder-kafka-core-3.0.0.RELEASE.jar!/org/springframework/cloud/stream/binder/kafka/properties/KafkaBinderConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/MsgSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/SpringbootKafkaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/TestKafkaProducerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/WordCountProcessorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/SpringCloudKafkaStreamsExampleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="35" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/kafka/KafkaProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="652" column="20" selection-start-line="652" selection-start-column="20" selection-end-line="652" selection-end-column="20" />
+          <folding>
+            <element signature="e#19983#19984#0" expanded="true" />
+            <element signature="e#20041#20042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/lidong/KafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="22" column="66" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-kafka-streams-example/src/main/java/com/lidongexample/KafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -39,6 +39,7 @@
         <module name="spring-cloud-gateway-service-sentinel-nacos" />
         <module name="spring-cloud-grpc-consumer" />
         <module name="spring-cloud-grpc-producer" />
+        <module name="spring-cloud-kafka-streams-example" />
         <module name="spring-cloud-nacos-auth-service" />
         <module name="spring-cloud-nacos-config" />
         <module name="spring-cloud-nacos-consumer" />
@@ -102,6 +103,7 @@
       <module name="spring-cloud-grpc-consumer" options="-parameters" />
       <module name="spring-cloud-grpc-producer" options="-parameters" />
       <module name="spring-cloud-grpc-provider" options="-parameters" />
+      <module name="spring-cloud-kafka-streams-example" options="-parameters" />
       <module name="spring-cloud-nacos-auth-service" options="-parameters" />
       <module name="spring-cloud-nacos-config" options="-parameters" />
       <module name="spring-cloud-nacos-consumer" options="-parameters" />
