@@ -9,9 +9,11 @@
 - [Spring Cloud Stream with RabbitMQ 消息驱动的微服务](https://blog.csdn.net/u010046908/article/details/100580155)
 - [Spring Cloud Alibaba Sentinel 网关流量控制之Spring Cloud Gateway实战](https://blog.csdn.net/u010046908/article/details/100015060)
 - [基于Nacos配置中心实现Spring Cloud Gateway的动态路由管理](https://blog.csdn.net/u010046908/article/details/100933635)
+- [使用Spring Cloud Stream和Apache Kafka Streams进行流计算(一)之WordCount入门](https://blog.csdn.net/u010046908/article/details/103456702)
 
 ## SpringBoot系列
-- [使用SpringBoot和Seata实现Dubbo分布式事务管理](https://blog.csdn.net/u010046908/article/details/100536439)
+- [使用SpringBoot、nacos和Seata实现Dubbo分布式事务管理](https://blog.csdn.net/u010046908/article/details/100536439)
+- [使用SpringBoot、Zookeeper和Seata实现Dubbo分布式事务管理](https://blog.csdn.net/u010046908/article/details/102661739)
 - [使用Spring Boot和RxJava的构建响应式REST API](https://blog.csdn.net/u010046908/article/details/100579590)
 - [SpringBoot2.1.1启动流程源码分析](https://blog.csdn.net/u010046908/article/details/86161525)
 - [第一个Spring Boot 应用通过Docker 来实现构建、运行、发布](https://blog.csdn.net/u010046908/article/details/56008445)
