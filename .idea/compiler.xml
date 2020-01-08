@@ -44,12 +44,12 @@
         <module name="spring-cloud-nacos-config" />
         <module name="spring-cloud-nacos-consumer" />
         <module name="spring-cloud-nacos-producer" />
-        <module name="springboot-econtract" />
         <module name="springboot-es" />
         <module name="springboot-flink" />
         <module name="springboot-grpc-api" />
         <module name="springboot-grpc-consumer" />
         <module name="springboot-grpc-provider" />
+        <module name="springboot-iot" />
         <module name="springboot-iot-mqtt" />
         <module name="springboot-kafka" />
         <module name="springboot-mail" />
@@ -61,10 +61,10 @@
         <module name="springboot03" />
       </profile>
       <profile name="Annotation profile for spring-cloud-learning-example" enabled="true">
-        <sourceOutputDir name="../springboot-econtract/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../springboot-econtract/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../springboot-iot/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../springboot-iot/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-iot" />
+        <module name="springboot-econtract" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

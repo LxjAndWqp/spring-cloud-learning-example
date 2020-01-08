@@ -1,11 +1,8 @@
-package io.seata.samples.integration.order.config;
+package io.seata.samples.integration.account.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 
-import io.seata.rm.datasource.DataSourceProxy;
-import io.seata.spring.annotation.GlobalTransactionScanner;
 import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
@@ -14,13 +11,15 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
+import javax.sql.DataSource;
+
 /**
- * @Author: heshouyou
+ * @Author: lidong
  * @Description  seata global configuration
- * @Date Created in 2019/1/24 10:28
+ * @Date Created in 2019/9/05 10:28
  */
 @Configuration
-public class SeataAutoConfig {
+public class SeataDataSourceAutoConfig {
 
     /**
      * autowired datasource config
@@ -56,38 +55,17 @@ public class SeataAutoConfig {
         druidDataSource.setLogAbandoned(true);
         return druidDataSource;
     }
-
-    /**
-     * init datasource proxy
-     * @Param: druidDataSource  datasource bean instance
-     * @Return: DataSourceProxy  datasource proxy
-     */
-    @Bean
-    public DataSourceProxy dataSourceProxy(DruidDataSource druidDataSource){
-        return new DataSourceProxy(druidDataSource);
-    }
-
     /**
      * init mybatis sqlSessionFactory
      * @Param: dataSourceProxy  datasource proxy
      * @Return: DataSourceProxy  datasource proxy
      */
     @Bean
-    public SqlSessionFactory sqlSessionFactory(DataSourceProxy dataSourceProxy) throws Exception {
+    public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
-        factoryBean.setDataSource(dataSourceProxy);
+        factoryBean.setDataSource(dataSource);
         factoryBean.setMapperLocations(new PathMatchingResourcePatternResolver()
                 .getResources("classpath*:/mapper/*.xml"));
         return factoryBean.getObject();
-    }
-
-    /**
-     * init global transaction scanner
-     *
-     * @Return: GlobalTransactionScanner
-     */
-    @Bean
-    public GlobalTransactionScanner globalTransactionScanner(){
-        return new GlobalTransactionScanner("order-gts-seata-example", "order-service-seata-service-group");
     }
 }

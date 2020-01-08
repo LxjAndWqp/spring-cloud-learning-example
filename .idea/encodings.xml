@@ -29,6 +29,7 @@
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-account" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-business/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-seata-nacos/samples-storage" charset="UTF-8" />
