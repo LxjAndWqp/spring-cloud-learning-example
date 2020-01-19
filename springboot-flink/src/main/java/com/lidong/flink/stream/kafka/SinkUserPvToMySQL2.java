@@ -12,7 +12,7 @@ import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
  */
 public class SinkUserPvToMySQL2 extends RichSinkFunction<UserPvEntity> {
 
-	PreparedStatement ps;
+    private PreparedStatement ps;
     private Connection connection;
 
     /**
@@ -54,7 +54,6 @@ public class SinkUserPvToMySQL2 extends RichSinkFunction<UserPvEntity> {
     	ps.setTimestamp(1, userPvEntity.getTime());
     	ps.setString(2, userPvEntity.getUserId());
         ps.setLong(3, userPvEntity.getPvcount());
-
         ps.executeUpdate();
     }
 
@@ -64,7 +63,7 @@ public class SinkUserPvToMySQL2 extends RichSinkFunction<UserPvEntity> {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db01?useUnicode=true&characterEncoding=UTF-8&useSSL=false","root","123456");
         } catch (Exception e) {
-            System.out.println("-----------mysql get connection has exception , msg = "+ e.getMessage());
+            System.out.println("mysql get connection has exception , msg = "+ e.getMessage());
         }
         return con;
     }

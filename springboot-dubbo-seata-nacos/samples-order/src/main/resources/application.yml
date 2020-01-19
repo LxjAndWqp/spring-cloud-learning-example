@@ -33,6 +33,8 @@ mybatis-plus:
   typeAliasesPackage: io.seata.samples.integration.*.entity
   configuration:
     map-underscore-to-camel-case: true
+      #mybatis-plus配置控制台打印完整带参数SQL语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     db-config:
       id-type: auto

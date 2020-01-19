@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-iot-netty-gate/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-consumer-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-txmsg-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

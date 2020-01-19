@@ -23,6 +23,7 @@ dubbo:
   registry:
     id: dubbo-account-example-registry
     address: nacos://127.0.0.1:8848
+    version: 1.0.0
   config-center:
     address: nacos://127.0.0.1:8848
   metadata-report:
@@ -33,6 +34,8 @@ mybatis-plus:
   typeAliasesPackage: io.seata.samples.integration.*.entity
   configuration:
     map-underscore-to-camel-case: true
+    #mybatis-plus配置控制台打印完整带参数SQL语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     db-config:
       id-type: auto

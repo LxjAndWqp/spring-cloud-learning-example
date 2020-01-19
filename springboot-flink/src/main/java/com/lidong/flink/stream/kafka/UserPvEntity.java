@@ -9,10 +9,18 @@ import java.util.Date;
 @Setter
 @Getter
 public class UserPvEntity {
-
+    /**
+     * 时间戳
+      */
    	private Timestamp time;
-    private String userId;
-    private Long  pvcount;
+    /**
+     * 用户id
+     */
+   	private String userId;
+    /**
+     * pv
+     */
+   	private Long  pvcount;
 
     public UserPvEntity(Timestamp time, String userId, Long pvcount) {
         this.time = time;

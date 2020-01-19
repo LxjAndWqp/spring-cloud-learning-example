@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -9,6 +10,8 @@
         <module name="admin-server" />
         <module name="config-client" />
         <module name="config-server" />
+        <module name="dtx-txmsg-demo-bank1" />
+        <module name="dtx-txmsg-demo-bank2" />
         <module name="eureka-server" />
         <module name="samples-account" />
         <module name="samples-business" />
@@ -44,6 +47,7 @@
         <module name="spring-cloud-nacos-config" />
         <module name="spring-cloud-nacos-consumer" />
         <module name="spring-cloud-nacos-producer" />
+        <module name="springboot-econtract" />
         <module name="springboot-es" />
         <module name="springboot-flink" />
         <module name="springboot-grpc-api" />
@@ -60,18 +64,8 @@
         <module name="springboot02" />
         <module name="springboot03" />
       </profile>
-      <profile name="Annotation profile for spring-cloud-learning-example" enabled="true">
-        <sourceOutputDir name="../springboot-iot/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../springboot-iot/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="springboot-econtract" />
-      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cloud-grpc-providerx" target="1.8" />
-      <module name="spring-cloud-grpc-provider" target="1.8" />
-      <module name="springboot-grpc-api (1)" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -102,7 +96,6 @@
       <module name="spring-cloud-gateway-service-sentinel-nacos" options="-parameters" />
       <module name="spring-cloud-grpc-consumer" options="-parameters" />
       <module name="spring-cloud-grpc-producer" options="-parameters" />
-      <module name="spring-cloud-grpc-provider" options="-parameters" />
       <module name="spring-cloud-kafka-streams-example" options="-parameters" />
       <module name="spring-cloud-nacos-auth-service" options="-parameters" />
       <module name="spring-cloud-nacos-config" options="-parameters" />
@@ -113,7 +106,6 @@
       <module name="springboot-flink" options="" />
       <module name="springboot-grpc" options="-parameters" />
       <module name="springboot-grpc-api" options="-parameters" />
-      <module name="springboot-grpc-api (1)" options="-parameters" />
       <module name="springboot-grpc-consumer" options="-parameters" />
       <module name="springboot-grpc-provider" options="-parameters" />
       <module name="springboot-iot" options="-parameters" />

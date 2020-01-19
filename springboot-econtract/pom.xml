@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lidong</groupId>
-    <artifactId>springboot-iot</artifactId>
+    <artifactId>springboot-econtract</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>springboot-iot</name>
-    <description>IOT平台demo</description>
+    <name>springboot-econtract</name>
+    <description>springboot-econtract</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

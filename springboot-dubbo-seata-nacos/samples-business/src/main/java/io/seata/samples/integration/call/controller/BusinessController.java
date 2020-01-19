@@ -38,7 +38,7 @@ public class BusinessController {
     }
 
     /**
-     * 模拟用户购买商品下单业务逻辑流程
+     * 模拟用户购买商品下单业务异常逻辑流程
      * @Param:
      * @Return:
      */
